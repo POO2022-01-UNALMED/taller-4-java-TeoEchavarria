@@ -5,12 +5,11 @@ public class Asignatura {
     String nombre;
     String n = nombre;
     int codigoInterno;
-    int codigoExterno;
+    long codigoExterno;
     Tipo tipo;
 
     Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
-        this(0);
     }
 
     //Asignatura(int codigoInterno,Tipo tipo) { this("Sin nombre", codigoInterno, 0,tipo);  }
